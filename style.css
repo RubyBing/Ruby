@@ -1,0 +1,99 @@
+body{
+    background-color: aqua;
+    height: 110vh;
+}
+
+p{
+    font-size: 100px;
+    margin: 0;
+    transition:all 500px ;
+}
+
+p:hover{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+}
+
+.bubble{
+    width: 100px;
+    height: 100px;
+    /*border: 1px solid black;*/
+    border-radius: 50px;
+
+    position: absolute;
+    top: 40%;
+    left: 30%;
+
+    transition: all 1s;
+}
+
+.bubble:hover{
+    width:200px;
+    height:200px;
+    border: radius 100px;
+    top:calc(40%-100px);
+    left: cal(30%-100px);
+    font-size: 200px;
+}
+
+.one{
+    top: 60%;
+    left: 80%;
+}
+
+.two{
+    top: 80%;
+    left: 10%;
+}
+
+.pufferfish{
+    position: absolute;
+    top: 200px;
+    right: 400px;
+}
+
+.clownfish{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+    width: 100px;
+    transition: all, 400ms;
+}
+
+.starfish{
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    width: 150px;
+    height: auto;
+}
+
+.info-button{
+    position:absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.info-button:hover{
+    color: black;
+    background: white;
+}
+
+.info-window{
+    width: 500px;
+    height: 300px;
+    background: white;
+    padding: 20px;
+    font-size: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: transition(-50%,-50%);
+}
